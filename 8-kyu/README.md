@@ -3,4 +3,4 @@
 - [Grasshopper - Terminal game combat function](https://www.codewars.com/kata/586c1cf4b98de0399300001d)
 - [Invert values](https://www.codewars.com/kata/5899dc03bc95b1bf1b0000ad)
 - [The Feast of Many Beasts](https://www.codewars.com/kata/5aa736a455f906981800360d)
-- [Third Angle of a Triangle](https://www.codewars.com/kata/5a023c426975981341000014)
+- [Third Angle of a Triangle](https://www.codewars.com/kata/5a023c426975981341000014)- [Multiplication table for number](https://www.codewars.com/kata/5a2fd38b55519ed98f0000ce)
