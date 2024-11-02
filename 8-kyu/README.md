@@ -1,1 +1,2 @@
 - [Function 1 - hello world](https://www.codewars.com/kata/523b4ff7adca849afe000035)
+- [Fake Binary](https://www.codewars.com/kata/57eae65a4321032ce000002d)
