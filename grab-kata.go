@@ -1,6 +1,7 @@
 package main
 
 import (
+	"bufio"
 	"encoding/json"
 	"flag"
 	"fmt"
@@ -113,13 +114,30 @@ func createSourceFile(kyuDir string, kata *Kata) error {
 		return fmt.Errorf(err.Error())
 	}
 
+	fmt.Println("Enter function declaration: ")
+	scanner := bufio.NewScanner(os.Stdin)
+
+	var lines []string
+	for {
+		scanner.Scan()
+		line := scanner.Text()
+		if len(line) == 0 {
+			break
+		}
+		lines = append(lines, line)
+	}
+
+	if err := scanner.Err(); err != nil {
+		return fmt.Errorf(err.Error())
+	}
+
 	goModFileDescriptor := FileDescriptor{
 		Path:    filepath.Join(packagePath, "go.mod"),
 		Content: fmt.Sprintf("module %s\n\ngo 1.23.2\n\n", packageName),
 	}
 	mainFileDescriptor := FileDescriptor{
 		Path:    filepath.Join(packagePath, kata.Slug+".go"),
-		Content: fmt.Sprintf("package %s\n\n// TODO: Write your solution here\n", packageName),
+		Content: fmt.Sprintf("package %s\n\n%s\n", packageName, strings.Join(lines, "\n")),
 	}
 	testFileDescriptor := FileDescriptor{
 		Path:    filepath.Join(packagePath, kata.Slug+"_test.go"),
