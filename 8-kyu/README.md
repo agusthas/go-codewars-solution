@@ -1,3 +1,4 @@
 - [Function 1 - hello world](https://www.codewars.com/kata/523b4ff7adca849afe000035)
 - [Fake Binary](https://www.codewars.com/kata/57eae65a4321032ce000002d)
 - [Grasshopper - Terminal game combat function](https://www.codewars.com/kata/586c1cf4b98de0399300001d)
+- [Invert values](https://www.codewars.com/kata/5899dc03bc95b1bf1b0000ad)
