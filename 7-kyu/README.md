@@ -1,3 +1,4 @@
 - [Scaling Squared Strings](https://www.codewars.com/kata/56ed20a2c4e5d69155000301)
 - [Number of Decimal Digits](https://www.codewars.com/kata/58fa273ca6d84c158e000052)
 - [Incrementer](https://www.codewars.com/kata/590e03aef55cab099a0002e8)
+- [Fizz Buzz Cuckoo Clock](https://www.codewars.com/kata/58485a43d750d23bad0000e6)
