@@ -6,3 +6,4 @@
 - [Third Angle of a Triangle](https://www.codewars.com/kata/5a023c426975981341000014)- [Multiplication table for number](https://www.codewars.com/kata/5a2fd38b55519ed98f0000ce)
 - [Multiple of  index](https://www.codewars.com/kata/5a34b80155519e1a00000009)
 - [Century From Year](https://www.codewars.com/kata/5a3fe3dde1ce0e8ed6000097)
+- [Total amount of points](https://www.codewars.com/kata/5bb904724c47249b10000131)
