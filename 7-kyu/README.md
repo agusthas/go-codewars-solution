@@ -1,1 +1,2 @@
 - [Scaling Squared Strings](https://www.codewars.com/kata/56ed20a2c4e5d69155000301)
+- [Number of Decimal Digits](https://www.codewars.com/kata/58fa273ca6d84c158e000052)
