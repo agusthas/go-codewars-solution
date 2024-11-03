@@ -7,3 +7,4 @@
 - [Multiple of  index](https://www.codewars.com/kata/5a34b80155519e1a00000009)
 - [Century From Year](https://www.codewars.com/kata/5a3fe3dde1ce0e8ed6000097)
 - [Total amount of points](https://www.codewars.com/kata/5bb904724c47249b10000131)
+- [Cat years, Dog years](https://www.codewars.com/kata/5a6663e9fd56cb5ab800008b)
