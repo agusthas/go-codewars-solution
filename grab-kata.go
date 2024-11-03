@@ -161,8 +161,6 @@ func main() {
 	cmd := flag.String("id", "", "Kata ID")
 	flag.Parse()
 
-	fmt.Printf("Grabbing kata with ID: %s\n", *cmd)
-
 	kata, err := getKataById(*cmd)
 	if err != nil {
 		panic(err)
@@ -178,12 +176,13 @@ func main() {
 	if err := upsertKyuDir(kyuDir, kata); err != nil {
 		panic(err)
 	}
-	fmt.Printf("Upserted kyu directory\n")
 
 	if err := createSourceFile(kyuDir, kata); err != nil {
 		panic(err)
 	}
-	fmt.Printf("Upserted source files\n")
+	fmt.Printf("Kata %s grabbed successfully!\n\n", kata.Name)
 
-	fmt.Printf("Kata grabbed successfully!\n")
+	finalPath := filepath.Join(kyuDir, kata.Slug, "src")
+	fmt.Printf("To start coding, run the following command:\n")
+	fmt.Printf("cd %s\n", finalPath)
 }
